@@ -6,13 +6,13 @@
 - **grupo**: pode ser desenvolvido em grupo mas a apresentação será individual.
 
 ## Instruções
-1. Fork desse repositório
-2. Criar e conectar um projeto no vercel ao repositório github
-3. Escolha um tema para aplicativo
-4. Construa o HTML + CSS estático
-5. Pegue o HTML estático correspondente ao dado dinâmico e crie um json no js
-6. Crie as funções de gerenciamento do dado (CRUD - create, retrieve, update, delete)
-7. Conecte ao repositório (interno ou externo)
+- [ ] Fork desse repositório
+- [ ] Criar e conectar um projeto no vercel ao repositório github
+- [ ] Escolha um tema para aplicativo
+- [ ] Construa o HTML + CSS estático
+- [ ] Pegue o HTML estático correspondente ao dado dinâmico e crie um json no js
+- [ ] Crie as funções de gerenciamento do dado (CRUD - create, retrieve, update, delete)
+- [ ] Conecte ao repositório (interno ou externo)
 
 ## Temas de Aplicativos Web Simples para Iniciantes
 
