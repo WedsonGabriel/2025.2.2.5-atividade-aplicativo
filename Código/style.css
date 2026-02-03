@@ -1,8 +1,8 @@
 :root {
-    --bg-color: #121214; /* Fundo escuro */
-    --card-bg: #202024;  /* Fundo dos cartões */
+    --bg-color: #121214; 
+    --card-bg: #202024;  
     --text-color: #e1e1e6;
-    --primary-color: #8257e5; /* Roxo Rocketseat/Neon */
+    --primary-color: #8257e5; 
     --primary-hover: #9466ff;
     --border-color: #323238;
 }
@@ -38,7 +38,6 @@ header h1 {
     font-size: 2.5rem;
 }
 
-/* Estilo do Formulário */
 form {
     background-color: var(--card-bg);
     padding: 20px;
@@ -98,7 +97,6 @@ button#save-btn:hover {
     background-color: var(--primary-hover);
 }
 
-/* Estilo da Lista */
 .workout-list h2 {
     margin-bottom: 15px;
     font-size: 1.2rem;
