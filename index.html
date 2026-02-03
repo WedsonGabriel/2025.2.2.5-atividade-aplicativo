@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Log - Diário de Treino</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'><rect width='256' height='256' fill='none'/><path d='M216,56H184a16,16,0,0,0-16,16V96H88V72a16,16,0,0,0-16-16H40A16,16,0,0,0,24,72v48H16a8,8,0,0,0,0,16h8v48a16,16,0,0,0,16,16H72a16,16,0,0,0,16-16V160H168v24a16,16,0,0,0,16,16h32a16,16,0,0,0,16-16V136h8a8,8,0,0,0,0-16h-8V72A16,16,0,0,0,216,56ZM72,184H40V72H72V184Zm144,0H184V72h32V184Z' fill='%238257e5'/></svg>">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Gym Log <i class="ph ph-barbell"></i></h1>
+            <p>Gerencie seus treinos e cargas</p>
+        </header>
+
+        <form id="workout-form">
+            <input type="hidden" id="edit-index"> <div class="input-group">
+                <label for="exercise">Exercício</label>
+                <input type="text" id="exercise" placeholder="Ex: Supino Reto" required>
+            </div>
+
+            <div class="row">
+                <div class="input-group">
+                    <label for="weight">Carga (kg)</label>
+                    <input type="number" id="weight" placeholder="20" required>
+                </div>
+                <div class="input-group">
+                    <label for="reps">Séries/Reps</label>
+                    <input type="text" id="reps" placeholder="3x12" required>
+                </div>
+            </div>
+
+            <button type="submit" id="save-btn">Adicionar Treino</button>
+        </form>
+
+        <div class="workout-list">
+            <h2>Seus Exercícios</h2>
+            <ul id="workout-list-ul">
+                </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

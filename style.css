@@ -1,0 +1,148 @@
+:root {
+    --bg-color: #121214; /* Fundo escuro */
+    --card-bg: #202024;  /* Fundo dos cartões */
+    --text-color: #e1e1e6;
+    --primary-color: #8257e5; /* Roxo Rocketseat/Neon */
+    --primary-hover: #9466ff;
+    --border-color: #323238;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+}
+
+/* Estilo do Formulário */
+form {
+    background-color: var(--card-bg);
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+}
+
+.row .input-group {
+    flex: 1;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    color: #a8a8b3;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    color: var(--text-color);
+    outline: none;
+}
+
+input:focus {
+    border-color: var(--primary-color);
+}
+
+button#save-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: 0.2s;
+}
+
+button#save-btn:hover {
+    background-color: var(--primary-hover);
+}
+
+/* Estilo da Lista */
+.workout-list h2 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li .info strong {
+    display: block;
+    font-size: 1.1rem;
+    color: var(--primary-color);
+}
+
+li .info span {
+    font-size: 0.9rem;
+    color: #a8a8b3;
+}
+
+.actions button {
+    background: transparent;
+    border: none;
+    color: #e1e1e6;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
+.actions button.delete:hover {
+    color: #f75a68;
+}
+
+.actions button.edit:hover {
+    color: var(--primary-color);
+}
